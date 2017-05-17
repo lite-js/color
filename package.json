@@ -1,0 +1,32 @@
+{
+  "name": "@lite-js/color",
+  "title": "the color module you expected",
+  "description": "javascript module for maintaining colors",
+  "homepage": "https://github.com/lite-js/color",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "https://github.com/lite-js/color/graphs/contributors",
+  "bugs": {
+    "url": "https://github.com/lite-js/color/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "lite",
+    "lite-js",
+    "color",
+    "colors"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "ssh",
+    "url": "git@github.com:lite-js/color.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
