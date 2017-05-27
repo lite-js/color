@@ -1,13 +1,8 @@
+const isString = require('lodash/isString')
+const lc = require('lodash/lowerCase')
 const namedColor = require('./named')
 
 const round = Math.round
-
-function isString (obj) {
-  return typeof obj === 'string'
-}
-function lc (str) {
-  return str.toLowerCase()
-}
 
 function confine (c, low, high) {
   c = Number(c)
