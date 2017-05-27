@@ -1,5 +1,5 @@
 const assert = require('assert');
-const Color = require('../src/index')
+const Color = require('../index')
 
 describe('Color', () => {
   it('Color initProps', () => {
