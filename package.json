@@ -11,6 +11,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "mocha": "^3.4.2"
   },
   "engines": {
     "node": ">=6.0.0"

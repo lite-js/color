@@ -212,7 +212,7 @@ Object.assign(Color, {
     return result.sanitize()
   },
   fromString (/* String */ str) {
-    const s = Color.hexByName[str]
+    const s = namedColor[str]
     return s && Color.fromHex(s) ||
       Color.fromRgb(str) ||
       Color.fromHex(str) ||
