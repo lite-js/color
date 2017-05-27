@@ -3,7 +3,7 @@
   "title": "the color module you expected",
   "description": "javascript module for maintaining colors",
   "homepage": "https://github.com/lite-js/color",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.js",
   "author": "https://github.com/lite-js/color/graphs/contributors",
   "bugs": {
