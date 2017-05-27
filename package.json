@@ -1,6 +1,6 @@
 {
   "name": "@lite-js/color",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "javascript module for maintaining colors",
   "main": "index.js",
   "bugs": {
