@@ -208,7 +208,7 @@ Object.assign(Color, {
   },
   fromString (/* String */ str) {
     const s = namedColor[str]
-    return s && Color.fromHex(s) ||
+    return (s && Color.fromHex(s)) ||
       Color.fromRgb(str) ||
       Color.fromHex(str) ||
       Color.fromHsl(str)

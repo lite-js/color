@@ -1,6 +1,6 @@
 {
   "name": "@lite-js/color",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "javascript module for maintaining colors",
   "main": "index.js",
   "bugs": {
@@ -10,7 +10,8 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -27,6 +28,7 @@
     "url": "git@github.com:lite-js/color.git"
   },
   "scripts": {
-    "test": "mocha"
+    "lint": "standard",
+    "test": "standard && mocha"
   }
 }

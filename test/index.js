@@ -1,4 +1,5 @@
-const assert = require('assert');
+/* global describe, it */
+const assert = require('assert')
 const Color = require('../index')
 
 describe('Color', () => {
