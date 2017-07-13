@@ -38,6 +38,6 @@
   "scripts": {
     "lint": "standard",
     "lint-fix": "standard --fix",
-    "test": "standard && mocha"
+    "test": "mocha"
   }
 }
